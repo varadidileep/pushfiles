@@ -56,10 +56,4 @@ function getbtn(){
     document.getElementById("output").innerHTML = data;
     })
 }
-var obj = {
-    name : "Dileep",
-    review  : "good"
-};
-Object.freeze(obj)
 
-console.log(obj)
